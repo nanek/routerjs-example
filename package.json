@@ -1,0 +1,19 @@
+{
+  "name": "routerjs-example",
+  "version": "1.0.0",
+  "description": "An example implementation of routerjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/app.js -o bundle.js"
+  },
+  "author": "Kenan Shifflett",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "docco": "^0.7.0"
+  },
+  "dependencies": {
+    "lodash.template": "^3.6.1"
+  }
+}
